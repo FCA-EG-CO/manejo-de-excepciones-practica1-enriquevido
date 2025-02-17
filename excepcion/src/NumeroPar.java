@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class NumeroPar {
     public static int verificadorPar (int num){
-        if (num != 0)
+        if (num % 2 != 0)
             throw new ArithmeticException("Excepción: El numero es impar");
         return num % 2;
     }
